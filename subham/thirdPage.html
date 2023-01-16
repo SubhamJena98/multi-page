@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./firstPage.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload Documents</h1>
+        <div class="form-container">
+            <form class="form">
+                <label>Recent passport size photograph (image size less than 4MB)<span class="req">*</span></label><br>
+                <input class="input2" id="passport" type="file" accept=".png, .jpg, .jpeg"  required /><br>
+    
+                <label>HSC mark sheet (image, PDF or docs size less than 4MB)<span class="req">*</span></label><br>
+                <input class="input2" id="hsc_mark" type="file" accept=".png, .jpg, .jpeg , .doc, .docx, .pdf" required /><br>
+    
+                <label>SSC mark sheet (image, PDF or docs size less than 4MB) <span class="req">*</span></label><br>
+                <input class="input2" id="ssc_mark" type="file" accept=".png, .jpg, .jpeg , .doc, .docx, .pdf" required /><br>
+    
+                <label>All semesters mark sheet in a single PDF or docs (file size less than 10MB)<span class="req">*</span></label><br>
+                <input class="input2" id="semester_mark" type="file" accept=".doc, .docx, .pdf" required /><br>
+    
+    
+                <button type="submit" onclick="thirdPage(event)">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

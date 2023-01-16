@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#f6f5f7;
+
+}
+
+h1 {
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+
+}
+
+a {
+	color: #333;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 15px 0;
+    cursor: pointer;
+}
+
+
+.container {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+    background: linear-gradient(to right, #FF4B2B, #FF416C);
+    padding: 20px;
+    margin: 50px;
+}
+
+.form {
+    margin: 50px;
+    padding: 30px;
+    width: 100%;
+    line-height: 40px;
+}
+
+.req {
+    color: red;
+}
+
+.form label {
+    font-size: large;
+    font-weight: bolder;
+}
+
+.input1 {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 42%;
+    border-radius: 20px;
+}
+
+.input2 {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 40%;
+    border-radius: 20px;
+}
+
+button {
+    border-radius: 20px;
+    border: 1px solid #FF4B2B;
+    background-color: #f6f5f7;
+    color: #FF4B2B;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    cursor: pointer;
+}
+
+#next {
+    visibility: hidden;
+    border-radius: 20px;
+    border: 1px solid #FF4B2B;
+    background-color: #f6f5f7;
+    color: #FF4B2B;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    cursor: pointer;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+button:focus {
+	outline: none;
+}
